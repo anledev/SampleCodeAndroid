@@ -1,4 +1,4 @@
-package com.anledev.samplecodeandroid.kotlin
+package com.anledev.samplecodeandroid.kotlin.views
 
 import android.content.Context
 import android.content.Intent
