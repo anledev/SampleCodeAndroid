@@ -8,8 +8,9 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.anledev.samplecodeandroid.R;
+import com.anledev.samplecodeandroid.java.base.BaseActivity;
 
-public class JavaMainActivity extends AppCompatActivity {
+public class JavaMainActivity extends BaseActivity {
 
     public static void show(Context context) {
         Intent intent = new Intent(context, JavaMainActivity.class);
@@ -21,6 +22,5 @@ public class JavaMainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_java_main);
 
-        WidgetActivity.show(this);
     }
 }

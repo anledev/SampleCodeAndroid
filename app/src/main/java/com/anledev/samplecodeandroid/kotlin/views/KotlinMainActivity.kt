@@ -1,12 +1,12 @@
-package com.anledev.samplecodeandroid.kotlin
+package com.anledev.samplecodeandroid.kotlin.views
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import com.anledev.samplecodeandroid.R
+import com.anledev.samplecodeandroid.kotlin.base.BaseActivity
 
-class KotlinMainActivity : AppCompatActivity() {
+class KotlinMainActivity : BaseActivity() {
 
     companion object {
         fun show(context: Context) {
