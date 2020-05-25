@@ -2,8 +2,8 @@ package com.anledev.samplecodeandroid
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.anledev.samplecodeandroid.java.JavaMainActivity
-import com.anledev.samplecodeandroid.kotlin.KotlinMainActivity
+import com.anledev.samplecodeandroid.java.views.JavaMainActivity
+import com.anledev.samplecodeandroid.kotlin.views.KotlinMainActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
