@@ -1,4 +1,4 @@
-package com.anledev.samplecodeandroid.java;
+package com.anledev.samplecodeandroid.java.views;
 
 import android.content.Context;
 import android.content.Intent;
@@ -20,5 +20,7 @@ public class JavaMainActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_java_main);
+
+        WidgetActivity.show(this);
     }
 }
