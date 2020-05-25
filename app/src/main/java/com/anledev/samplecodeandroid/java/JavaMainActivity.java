@@ -11,7 +11,7 @@ import com.anledev.samplecodeandroid.R;
 
 public class JavaMainActivity extends AppCompatActivity {
 
-    public static void showClose(Context context) {
+    public static void show(Context context) {
         Intent intent = new Intent(context, JavaMainActivity.class);
         context.startActivity(intent);
     }

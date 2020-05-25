@@ -12,10 +12,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         btnJava.setOnClickListener {
-            JavaMainActivity.showClose(this)
+            JavaMainActivity.show(this)
         }
         btnKotlin.setOnClickListener {
-            KotlinMainActivity.showClose(this)
+            KotlinMainActivity.show(this)
         }
     }
 }

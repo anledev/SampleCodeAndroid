@@ -9,7 +9,7 @@ import com.anledev.samplecodeandroid.R
 class KotlinMainActivity : AppCompatActivity() {
 
     companion object {
-        fun showClose(context: Context) {
+        fun show(context: Context) {
             val intent = Intent(context, KotlinMainActivity::class.java)
             context.startActivity(intent)
         }
