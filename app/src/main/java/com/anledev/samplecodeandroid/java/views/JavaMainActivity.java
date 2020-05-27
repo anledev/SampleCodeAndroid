@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
 
 import com.anledev.samplecodeandroid.R;
 import com.anledev.samplecodeandroid.java.base.BaseActivity;
